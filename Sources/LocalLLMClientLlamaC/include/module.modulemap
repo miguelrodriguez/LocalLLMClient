@@ -1,0 +1,6 @@
+module LocalLLMClientLlamaC {
+  header "LocalLLMClientLlamaC.h"
+  header "utils.h"
+  export *
+  requires cplusplus
+}
