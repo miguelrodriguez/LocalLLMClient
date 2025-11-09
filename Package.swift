@@ -165,7 +165,8 @@ packageTargets.append(contentsOf: [
             .headerSearchPath(".")
         ],
         cxxSettings: [
-            .headerSearchPath(".")
+            .headerSearchPath("."),
+            .cxxLanguageStandard(.cxx17)
         ],
         swiftSettings: [
             .interoperabilityMode(.Cxx)
